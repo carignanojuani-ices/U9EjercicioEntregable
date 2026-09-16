@@ -201,13 +201,13 @@ void MostrarLibros()
     }
     else
     {
-        foreach (var libro in libros)//.Where(l => l.Activo))
+        foreach (var libro in libros.Where(l => l.Activo))
         {
             Console.WriteLine(
                 $"ID: {libro.Id} | " +
                 $"Título: {libro.Titulo} | " +
-                $"Año: {libro.AnioPublicacion} | "); //+
-                //$"Autor: {libro.Autor.Nombre}");
+                $"Año: {libro.AnioPublicacion} | "+
+                $"Autor: {libro.Autor.Nombre}");
         }
     }
 
