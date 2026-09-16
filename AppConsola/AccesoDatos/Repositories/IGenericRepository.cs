@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AccesoDatos.Models;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +9,7 @@ namespace AccesoDatos.Repositories
     // La T significa que acepta cualquier clase existente en Models.
     public interface IGenericRepository<T> where T : class
     {
+        // METODOS GENERICOS.
         void Agregar(T entidad);
         List<T> ObtenerTodos();
         List<T> ObtenerTodosCon(string propiedadRelacionada);

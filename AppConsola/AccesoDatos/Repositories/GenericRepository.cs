@@ -1,15 +1,17 @@
 ﻿using AccesoDatos.Data;
+using AccesoDatos.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AccesoDatos.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly AplicationDbContext _context;
+        // METODOS GENERICOS.
+        private readonly ApplicationDbContext _context;
 
         public GenericRepository()
         {
-            _context = new AplicationDbContext();
+            _context = new ApplicationDbContext();
         }
 
         public void Agregar(T entidad)

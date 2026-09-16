@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +27,20 @@
       "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\migrations\\20260826183025_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\migrations\\20260826183025_migracioninicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260901190216_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260901190216_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\accesodatos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\entregable 26-8\\u9ejercicioentregable\\appconsola\\accesodatos\\migrations\\20260916173340_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\migrations\\20260916173340_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,31 +58,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Data\\AplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
-              "RelativeToolTip": "AccesoDatos\\Data\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "20260916173340_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260916173340_InitialMigration.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260916173340_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260916173340_InitialMigration.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260916173340_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T17:33:40.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AccesoDatos\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T23:32:45.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260826183025_MigracionInicial.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260826183025_MigracionInicial.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260826183025_MigracionInicial.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260826183025_MigracionInicial.cs",
-              "RelativeToolTip": "AccesoDatos\\Migrations\\20260826183025_MigracionInicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T18:30:26.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AccesoDatos.csproj",
               "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\AccesoDatos.csproj",
               "RelativeDocumentMoniker": "AccesoDatos\\AccesoDatos.csproj",
@@ -86,26 +94,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T18:14:26.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAMwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T18:13:43.792Z",
               "EditorCaption": ""
@@ -118,22 +126,23 @@
               "RelativeDocumentMoniker": "AccesoDatos\\Models\\Libro.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Models\\Libro.cs",
               "RelativeToolTip": "AccesoDatos\\Models\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T18:12:50.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Autor.cs",
               "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Models\\Autor.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Models\\Autor.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Models\\Autor.cs",
               "RelativeToolTip": "AccesoDatos\\Models\\Autor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T18:12:44.401Z"
+              "WhenOpened": "2026-08-26T18:12:44.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -143,10 +152,35 @@
               "RelativeDocumentMoniker": "AppConsola\\Program.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AppConsola\\Program.cs",
               "RelativeToolTip": "AppConsola\\Program.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAgwHMAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-26T18:10:40.405Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Models\\Categoria.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T18:54:57.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260901190216_categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260901190216_categoria.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260901190216_categoria.cs",
+              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\Entregable 26-8\\U9EjercicioEntregable\\AppConsola\\AccesoDatos\\Migrations\\20260901190216_categoria.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260901190216_categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T19:02:17.114Z"
             }
           ]
         }

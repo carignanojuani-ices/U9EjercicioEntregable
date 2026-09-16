@@ -6,6 +6,7 @@ C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\Acc
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfoInputs.cache
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.AssemblyInfo.cs
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.sourcelink.json
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.dll
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\refint\AccesoDatos.dll
 C:\Users\Juani\Desktop\2026\Entregable 26-8\U9EjercicioEntregable\AppConsola\AccesoDatos\obj\Debug\net10.0\AccesoDatos.pdb

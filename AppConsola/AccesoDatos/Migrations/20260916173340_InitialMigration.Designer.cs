@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AccesoDatos.Migrations
 {
-    [DbContext(typeof(AplicationDbContext))]
-    [Migration("20260826183025_MigracionInicial")]
-    partial class MigracionInicial
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20260916173340_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,16 +34,37 @@ namespace AccesoDatos.Migrations
                     b.ToTable("Autor");
                 });
 
+            modelBuilder.Entity("AccesoDatos.Models.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categoria");
+                });
+
             modelBuilder.Entity("AccesoDatos.Models.Libro", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<bool>("Activo")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("AnioPublicacion")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("AutorId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CategoriaId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Titulo")
@@ -53,6 +74,8 @@ namespace AccesoDatos.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AutorId");
+
+                    b.HasIndex("CategoriaId");
 
                     b.ToTable("Libro");
                 });
@@ -65,10 +88,23 @@ namespace AccesoDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("AccesoDatos.Models.Categoria", "Categoria")
+                        .WithMany("Libros")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Autor");
+
+                    b.Navigation("Categoria");
                 });
 
             modelBuilder.Entity("AccesoDatos.Models.Autor", b =>
+                {
+                    b.Navigation("Libros");
+                });
+
+            modelBuilder.Entity("AccesoDatos.Models.Categoria", b =>
                 {
                     b.Navigation("Libros");
                 });
