@@ -3,7 +3,9 @@ using AccesoDatos.Repositories;
 
 IGenericRepository<Autor> autorRepository = new GenericRepository<Autor>();
 IGenericRepository<Categoria> categoriaRepository = new GenericRepository<Categoria>();
-IGenericRepository<Libro> libroRepository = new GenericRepository<Libro>();
+
+// Inicializacion de conexion de libro con base de datos.
+LibroRepository libroRepository = new LibroRepository();
 
 bool continuar = true;
 

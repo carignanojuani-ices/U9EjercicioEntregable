@@ -7,7 +7,7 @@ namespace AccesoDatos.Repositories
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         // METODOS GENERICOS.
-        private readonly ApplicationDbContext _context;
+        protected readonly ApplicationDbContext _context;
 
         public GenericRepository()
         {
@@ -56,5 +56,6 @@ namespace AccesoDatos.Repositories
                 _context.SaveChanges();
             }
         }
+
     }
 }
