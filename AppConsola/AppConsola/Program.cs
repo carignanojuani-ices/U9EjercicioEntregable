@@ -3,24 +3,36 @@ using AccesoDatos.Repositories;
 
 IGenericRepository<Autor> autorRepository = new GenericRepository<Autor>();
 IGenericRepository<Categoria> categoriaRepository = new GenericRepository<Categoria>();
-IGenericRepository<Libro> libroRepository = new GenericRepository<Libro>();
+LibroRepository libroRepository = new LibroRepository();
 
 bool continuar = true;
 
 while (continuar)
 {
-    Console.WriteLine("================================");
-    Console.WriteLine(" SISTEMA DE BIBLIOTECA ");
-    Console.WriteLine("================================");
     Console.WriteLine("1. Alta Autor");
     Console.WriteLine("2. Alta Categoría");
     Console.WriteLine("3. Alta Libro");
+    Console.WriteLine();
+
     Console.WriteLine("4. Ver Autores");
     Console.WriteLine("5. Ver Categorías");
     Console.WriteLine("6. Ver Libros");
+    Console.WriteLine();
+
     Console.WriteLine("7. Modificar Libro");
     Console.WriteLine("8. Eliminar Libro");
     Console.WriteLine("9. Modificar Autor");
+    Console.WriteLine();
+
+    // Opciones LINQ - entregable 3.
+    Console.WriteLine("10. Ver libros más recientes");
+    Console.WriteLine("11. Cantidad total de libros");
+    Console.WriteLine("12. Cantidad de libros activos");
+    Console.WriteLine("13. Buscar libro por ID");
+    Console.WriteLine("14. Ver libros ordenados por título");
+    Console.WriteLine("15. Verificar si existen libros activos");
+    Console.WriteLine();
+
     Console.WriteLine("0. Salir");
     Console.WriteLine();
 
@@ -65,6 +77,30 @@ while (continuar)
 
         case "9":
             ModificarAutor();
+            break;
+
+        case "10":
+            MostrarLibrosMasRecientes();
+            break;
+
+        case "11":
+            MostrarCantidadLibros();
+            break;
+
+        case "12":
+            MostrarCantidadLibrosActivos();
+            break;
+
+        case "13":
+            BuscarLibroPorId();
+            break;
+
+        case "14":
+            MostrarLibrosOrdenadosPorTitulo();
+            break;
+
+        case "15":
+            VerificarLibrosActivos();
             break;
 
         case "0":
@@ -298,6 +334,89 @@ void EliminarLibro()
         {
             Console.WriteLine("Libro no encontrado.");
         }
+    }
+
+    PresioneParaContinuar();
+}
+
+void MostrarLibrosMasRecientes()
+{
+    Console.WriteLine("===== LIBROS MÁS RECIENTES =====");
+
+    foreach (var libro in libroRepository.ObtenerLibrosPorMasRecientes())
+    {
+        Console.WriteLine(
+            $"{libro.Titulo} - {libro.AnioPublicacion}");
+    }
+
+    PresioneParaContinuar();
+}
+
+void MostrarCantidadLibros()
+{
+    Console.WriteLine("===== CANTIDAD TOTAL DE LIBROS =====");
+
+    Console.WriteLine(
+        $"Cantidad: {libroRepository.ObtenerCantidadLibros()}");
+
+    PresioneParaContinuar();
+}
+
+void MostrarCantidadLibrosActivos()
+{
+    Console.WriteLine("===== CANTIDAD DE LIBROS ACTIVOS =====");
+
+    Console.WriteLine(
+        $"Cantidad: {libroRepository.ObtenerCantidadLibrosActivos()}");
+
+    PresioneParaContinuar();
+}
+
+void BuscarLibroPorId()
+{
+    Console.Write("Ingrese ID del libro: ");
+
+    int id = int.Parse(Console.ReadLine());
+
+    var libro = libroRepository.ObtenerLibroPorId(id);
+
+    if (libro == null)
+    {
+        Console.WriteLine("Libro no encontrado.");
+    }
+    else
+    {
+        Console.WriteLine(
+            $"Título: {libro.Titulo} | Año: {libro.AnioPublicacion}");
+    }
+
+    PresioneParaContinuar();
+}
+
+void MostrarLibrosOrdenadosPorTitulo()
+{
+    Console.WriteLine("===== LIBROS ORDENADOS POR TÍTULO =====");
+
+    foreach (var libro in libroRepository.ObtenerLibrosOrdenadosPorTitulo())
+    {
+        Console.WriteLine(
+            $"{libro.Titulo} - {libro.AnioPublicacion}");
+    }
+
+    PresioneParaContinuar();
+}
+
+void VerificarLibrosActivos()
+{
+    Console.WriteLine("===== VERIFICAR LIBROS ACTIVOS =====");
+
+    if (libroRepository.ExistenLibrosActivos())
+    {
+        Console.WriteLine("Existen libros activos.");
+    }
+    else
+    {
+        Console.WriteLine("No existen libros activos.");
     }
 
     PresioneParaContinuar();
